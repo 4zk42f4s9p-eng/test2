@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Noto Serif JP', serif;
+  background: linear-gradient(180deg, #F7F6F3 0%, #F2EFEA 100%);
+  color: #333;
+}
+
+/* ヘッダー */
+.header {
+  padding: 20px;
+}
+
+.logo {
+  width: 160px;
+}
+
+/* ヒーロー */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.hero p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* セクション共通 */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* ABOUT画像 */
+.about-img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* FEATURE画像 */
+.feature-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* リスト */
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+/* ボタン */
+.btn {
+  display: block;
+  width: 90%;
+  margin: 30px auto;
+  padding: 14px;
+  border: 1px solid #B8AFA2;
+  color: #B8AFA2;
+  text-decoration: none;
+}
+
+/* 固定ボタン */
+.fixed-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  background: #2ECC71;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-btn:active {
+  transform: translateX(-50%) scale(0.98);
+}
+
+/* スマホ調整 */
+@media (max-width: 768px) {
+  .logo {
+    width: 140px;
+  }
+}
