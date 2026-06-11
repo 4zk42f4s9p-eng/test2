@@ -52,6 +52,7 @@ h2 {
 /* FEATURE画像 */
 .feature-img {
   width: 100%;
+  max-width: 280px;
   border-radius: 12px;
   margin-bottom: 20px;
 }
