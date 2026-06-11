@@ -75,25 +75,39 @@ ul {
 }
 
 /* 固定ボタン */
-.fixed-btn {
+.fixed-buttons{
   position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+
   width: 90%;
   max-width: 400px;
-  background: #2ECC71;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+
+  z-index: 999;
 }
 
-.fixed-btn:active {
-  transform: translateX(-50%) scale(0.98);
+.fixed-tel,
+.fixed-line{
+  display: block;
+  text-align: center;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fixed-tel{
+  background: #B8AFA2;
+  border-radius: 20px 20px 0 0;
+}
+
+.fixed-line{
+  background: #2ECC71;
+  border-radius: 0 0 20px 20px;
 }
 
 /* スマホ調整 */
